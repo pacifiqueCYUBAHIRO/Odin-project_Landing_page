@@ -1,0 +1,182 @@
+
+
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    }
+
+    nav{
+        display: flex;
+        width: 100%;
+        color: white;
+        padding: 20px 0;
+        background-color: #1F2937;
+
+    }
+    nav h1{
+        font-size: 24px;
+        color: #F9FAF8;
+        margin: 0 150px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    nav ul{
+        list-style: none;
+        margin-left: 300px;
+    }
+    nav ul li{
+        display: inline-flex;
+        
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+       
+        padding: 20px;
+        
+    }
+    
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        width: 100%;
+        padding: 50px 0;
+        background-color: #1F2937;
+    }
+    .main button{
+        padding: 10px 30px;
+        font-size: 16px;
+        border-radius: 10px;
+        font-weight: bold;
+        background-color: #3882F6;
+        color: white;
+        border: none;
+        margin: 20px;
+        cursor: pointer;
+    }
+
+    .main .part1{
+        width: 50%;
+        margin: 0 150px;
+    }
+    .part1 h1{
+        padding: 10px;
+        font-size: 48px;
+        font-weight: bold;
+        color: #F9FAF8;
+    }
+    .part1 p{
+        padding: 0 15px;
+        font-size: 18px;
+        color: #E5E7EB;
+    }
+    .main .part2{
+        width: 50%;
+        
+    }
+
+    .sec1{
+        background-color: white;
+        padding: 50px;
+
+    }
+    .sec1 h1{
+        text-align: center;
+        margin: 0 150px;
+        font-size: 36px;
+        font-weight: bold;
+        color: #1F2937;
+        
+    }
+    .sec1 .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        margin: 0 150px;
+
+    }
+    .boxes .box{
+
+        width:150px;
+        height: 150px;
+        background-color: white;
+        border-radius: 10px;
+        border: 4px solid #7d88ee;
+    }
+    .bo{
+        padding: 20px;
+    }
+    .bo p{
+        width: 150px;
+    }
+
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #E5E7EB;
+        padding: 50px;
+    }
+    .sec2 .inspire{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    .inspire p{
+      font-size: 35px; 
+      font-style: italic;
+      color: #1F2937;
+    }
+    .inspire span{
+        font-weight: bold;
+        margin-left: 300px;
+        font-size: 25px;
+    }
+
+    .sec3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+    .sec3 .call{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #4f97f5;
+        color: white;
+        padding: 30px;
+        width: 70%;
+        border-radius: 10px;
+    }
+    .call p{
+        margin-top: -15px;
+    }
+    .call button{
+        padding: 8px 35px;
+        font-size: 16px;
+        border-radius: 10px;
+        font-weight: bold;
+        background-color: #3882F6;
+        color: white;
+        border: 2px solid white;
+        margin: 20px;
+        margin-left: 100px;
+        cursor: pointer;
+    }
+    
+
+
+    footer{
+        background: #1F2937;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
