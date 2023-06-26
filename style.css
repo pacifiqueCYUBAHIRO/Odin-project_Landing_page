@@ -133,11 +133,12 @@
     .inspire p{
       font-size: 35px; 
       font-style: italic;
+      font-weight: 300;
       color: #1F2937;
     }
     .inspire span{
         font-weight: bold;
-        margin-left: 300px;
+        align-self: flex-end;
         font-size: 25px;
     }
 
@@ -181,3 +182,7 @@
         padding: 20px;
         text-align: center;
     }
+
+
+
+    
